@@ -11,17 +11,24 @@
     <p id="description">Objective: Build an app that is functionally similar to <a href="https://survey-form.freecodecamp.rocks"> https://survey-form.freecodecamp.rocks.</a></p>
     <div class="form">
     <form id="survey-form">
-        <label for="name">Enter your name</label>
-        <label for="email">Enter your email</label>
-        <label for="number">Age</label>
+        <fieldset>
+        <label for="name">Enter your name
+            <input id="name" type="text" required>
+        </label>
+        <label for="email">Enter your email
+            <input id="email" type="email">
+        </label>
+        <label for="number"">Age
+            <input id="number"  type="number min="1" max="110">
+        </label>
+    </fieldset>
         <label id="name-label"></label>
         <label id="email-label"></label>
-        <input id="name" type="text" required>
-        <input id="email" required>
-        <input id="number" min="1" max="110">
+        
+   
         <select id="dropdown" />
 
-
+1
 
     </form>
     </div>

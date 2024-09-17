@@ -7,6 +7,9 @@ h3 {
     font-style: italic;
 }
 
+p{
+    text-align: center;
+}
 p.survey-form {
     text-align: center;
 }
@@ -22,10 +25,16 @@ div.form
 }
 form
 {
+    margin: 0 auto;
+    width: 60vw;
+    min-width: 300px;
+    max-width: 500px;
     display: inline-block;
-    margin-left: 33%;
-    margin-right: 33%;
-    text-align: left;
+     background-color: darksalmon;
+
+label{
+    display: block;
+    margin: 0.5rem;
 }
 
 s body {
